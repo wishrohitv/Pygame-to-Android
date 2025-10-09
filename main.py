@@ -2,7 +2,7 @@ import pygame, sys
 from pygame.locals import *
 import pygame.mixer
 import random, os
-from scrore import update, show
+from score import update, show
 from kivy.utils import platform
 
 pygame.init()
@@ -39,7 +39,7 @@ pygame.display.set_caption("Rohit's car game")
 cs = os.path.abspath('crash_sound.wav')
 bs = os.path.abspath('background_sound.wav')
 es = os.path.abspath('engine_sound.wav')
-print(cs,bs,es)
+
 car1 = os.path.abspath('car1.png')
 car2 = os.path.abspath('car2.png')
 carq = os.path.abspath('carq.png')
@@ -77,15 +77,6 @@ def run_game(speed_):
     car_speed = speed_
     game_over = False
     game_close = False
-
-
-    # highway_image = pygame.image.load('highways.jpg')
-    # highway_width, highway_height = 300, 700
-    # highway_image = pygame.transform.scale(highway_image, (highway_width, highway_height))
-
-    # highway_loc = highway_image.get_rect()
-    # highway_loc.x = width/2 - highway_loc.width/2
-    # highway_loc.y = 0
 
     car_image = pygame.image.load(car1)
     car_width, car_height = 80, 160  # Set the desired width and height for the car
