@@ -7,4 +7,4 @@ pygame car game apk link [https://github.com/wishrohitv/Car-Game-pygame/releases
 ## Another way to compile game (Faster than google colab)
 Compile pygame code using github codespace - https://youtu.be/T227BD1pFcc?si=OR9EyEesYTZ0OLtc
 
-** In this repo is guide about how to convert Pygame code to Android apk **
+** This repo is guide about how to convert Pygame code to Android apk **
